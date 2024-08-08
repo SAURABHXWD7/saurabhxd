@@ -2,7 +2,7 @@ module.exports.config = {
   name: "6mui",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "",
   description: "Random 6-pack photos",
   commandCategory: "Random-IMG",
   usages: "6mui",
@@ -20,7 +20,7 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
-"https://i.imgur.com/R9mb2d6.jpg",
+"https://i.imgur.com/rqpW1jQ.jpeg",
 "https://i.imgur.com/HmDpGbJ.jpg",
 "https://i.imgur.com/8QT9gp6.jpg",
 "https://i.imgur.com/gggc27P.jpg",
