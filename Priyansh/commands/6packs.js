@@ -21,9 +21,9 @@ const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
     var link = [
 "https://i.imgur.com/rqpW1jQ.jpeg",
-"https://i.imgur.com/HmDpGbJ.jpg",
-"https://i.imgur.com/8QT9gp6.jpg",
-"https://i.imgur.com/gggc27P.jpg",
+"https://i.imgur.com/HGYj03z.jpeg",
+"https://i.imgur.com/wBgdk3t.jpeg",
+"https://i.imgur.com/weXmQZS.jpeg",
 "https://i.imgur.com/fEUM8lM.jpg",
 "https://i.imgur.com/56Sreb3.jpg",
 "https://i.imgur.com/z8UA5Um.jpg",
