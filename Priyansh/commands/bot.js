@@ -195,11 +195,19 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("M Tabhi Accha hota hu, Jab Apko Hasta Huye Dekhta hu☺️", threadID);
    };
 
+if ((event.body.toLowerCase() == "ammu bacha") || (event.body.toLowerCase() == "ammu jawn") || (event.body.toLowerCase() == "ammu") || (event.body.toLowerCase() == "Ammu") || (event.body.toLowerCase() == "how are you?")) {
+     return api.sendMessage("ammu jaan love you bhut sara🥺❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "love you baby") || (event.body.toLowerCase() == "love you jawn") || (event.body.toLowerCase() == "juthe") || (event.body.toLowerCase() == "kab tak sath ho") || (event.body.toLowerCase() == "how are you?")) {
+     return api.sendMessage("jawn me hamesa aapke sath hun 😘", threadID);
+   };
+
    if ((event.body.toLowerCase() == "sad hu") || (event.body.toLowerCase() == "mood off")) {
      return api.sendMessage("Why are you  sad  everyone love you don't worry <3", threadID);
    };
 
-   if ((event.body.toLowerCase() == "ye bot kon add kiya") || (event.body.toLowerCase() == "ye bot kon laya ")) {
+   if ((event.body.toLowerCase() == "ye bot kon add kiya") || (event.body.toLowerCase() == "bot kisne add kiya ")) {
      return api.sendMessage("Saurabh thakur laye mujhe Rahu ya jau yha se😾", threadID);
    };
 
