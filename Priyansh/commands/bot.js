@@ -227,7 +227,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🏔️🏝️saurabh Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
    };
 
-  if ((event.body.toLowerCase() == " saurabh hu") || (event.body.toLowerCase() == "nobita here") || (event.body.toLowerCase() == "main ammu") || (event.body.toLowerCase() == "ammu hu") || (event.body.toLowerCase() == "suno na")) {
+  if ((event.body.toLowerCase() == "saurabh here") || (event.body.toLowerCase() == "nobita here") || (event.body.toLowerCase() == "ammu here") || (event.body.toLowerCase() == "ammu hu") || (event.body.toLowerCase() == "suno na")) {
      return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
    };
    mess = "{name}"
