@@ -143,6 +143,51 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️Khud hi karlona. tumhe kya kuch nhi ata h?", threadID);
    };
 
+if ((event.body.toLowerCase() == "tmkc") || (event.body.toLowerCase() == "Tmkc") || (event.body.toLowerCase() == "Teri ma ki chut") || (event.body.toLowerCase() == "Hatt") || (event.body.toLowerCase() == "bhkk")) {
+     return api.sendMessage("•-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ Se kahkar Teri watt lagva dunga 🥺❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "Bhkk bkl") || (event.body.toLowerCase() == "Uski mkb") || (event.body.toLowerCase() == "uski mkb") || (event.body.toLowerCase() == "Teri mkb") || (event.body.toLowerCase() == "Mine Randi")) {
+     return api.sendMessage("Kyu Teri mkb nahi he kya jhatu 😾", threadID);
+   };
+
+if ((event.body.toLowerCase() == "bot jhatu") || (event.body.toLowerCase() == "bot bsdk") || (event.body.toLowerCase() == "fuck me") || (event.body.toLowerCase() == "gand de do koii") || (event.body.toLowerCase() == "lagend log")) {
+     return api.sendMessage("Bot Se panga not changa tmkc 100 bar dost 😞👍", threadID);
+   };
+
+if ((event.body.toLowerCase() == "bhag") || (event.body.toLowerCase() == "bhago") || (event.body.toLowerCase() == "randi ka bacha bhag") || (event.body.toLowerCase() == "bhg") || (event.body.toLowerCase() == "lode bhag")) {
+     return api.sendMessage("bhaga bhaga ke choduga yad rakhna 😾", threadID);
+   };
+
+
+if ((event.body.toLowerCase() == "khushi baby") || (event.body.toLowerCase() == "khushi") || (event.body.toLowerCase() == "Khushi") || (event.body.toLowerCase() == "khushi chut dogi") || (event.body.toLowerCase() == "Mine randi khushi")) {
+     return api.sendMessage("Bete yha se marna chalu karunga aur india border tak gand me chappal marte le jaunga samjha😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "chut doge") || (event.body.toLowerCase() == "chut chahiye") || (event.body.toLowerCase() == "koii chut de do") || (event.body.toLowerCase() == "baby chut dogi") || (event.body.toLowerCase() == "baby fuck you")) {
+     return api.sendMessage("Yahi patak ke chod dunga samjha na jhatu i fuck you 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "Ib") || (event.body.toLowerCase() == "inbox") || (event.body.toLowerCase() == "inbox aao") || (event.body.toLowerCase() == "Inbox") || (event.body.toLowerCase() == "ib me")) {
+     return api.sendMessage("Inbox me le jakar kya karega bsdk yhi bat kar na  😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "request uthao") || (event.body.toLowerCase() == "request accept karo") || (event.body.toLowerCase() == "request accept kro") || (event.body.toLowerCase() == "request utha") || (event.body.toLowerCase() == "ib chal")) {
+     return api.sendMessage("Shakal dekhi he apni jao pahle mekup karke aao 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "gandi") || (event.body.toLowerCase() == "ganda") || (event.body.toLowerCase() == "Ganda") || (event.body.toLowerCase() == "Gandi") || (event.body.toLowerCase() == "gandi bachi")) {
+     return api.sendMessage("Gandi gandi kar raha bsdk nali me kha kar aaya he kya 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "hnji") || (event.body.toLowerCase() == "hnn") || (event.body.toLowerCase() == "hn") || (event.body.toLowerCase() == "Hnji") || (event.body.toLowerCase() == "Hnn")) {
+     return api.sendMessage("hnn mat bolo baby ratko kamre me ghus ke chuma le jaunga 😘❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "ignore") || (event.body.toLowerCase() == "chor jane de") || (event.body.toLowerCase() == "ignor") || (event.body.toLowerCase() == "jaan ignore kar") || (event.body.toLowerCase() == "chor bhai")) {
+     return api.sendMessage("Mat Kar ignore bhai jao uski gand marke aao jisne aapko kahi ka na chora 😹", threadID);
+   };
+
    if ((event.body.toLowerCase() == "🙂") || (event.body.toLowerCase() == "🙃")) {
      return api.sendMessage("️Man Toh Accha H Nhi. Kam  Se Kam Shakal Toh Accha Karlo Meri Jaan", threadID);
    };
