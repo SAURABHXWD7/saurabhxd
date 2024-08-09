@@ -112,7 +112,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️Kya hua Jawn Sad kyu ho, Mujhe batao", threadID);
    };
 
-
    if ((event.body.toLowerCase() == "hm") || (event.body.toLowerCase() == "hmm")) {
      return api.sendMessage("️Hmm Hmm Na Karke Sidha Sidha bolo. Bot janu Marry Me🙈", threadID);
    };
@@ -160,7 +159,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   if ((event.body.toLowerCase() == "bhag") || (event.body.toLowerCase() == "bhago") || (event.body.toLowerCase() == "randi ka bacha bhag") || (event.body.toLowerCase() == "bhg") || (event.body.toLowerCase() == "lode bhag")) {
      return api.sendMessage("bhaga bhaga ke choduga yad rakhna 😾", threadID);
    };
-
 
   if ((event.body.toLowerCase() == "baby") || (event.body.toLowerCase() == "babu") || (event.body.toLowerCase() == "Teri gf ka boxda bot") || (event.body.toLowerCase() == "teri ma ka boxda") || (event.body.toLowerCase() == "Mine randi")) {
      return api.sendMessage("Bete yha se marna chalu karunga aur india border tak gand me chappal marte le jaunga samjha😹", threadID);
@@ -230,7 +228,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("jaan love you bhut sara🥺❤️", threadID);
    };
 
-
  if ((event.body.toLowerCase() == "fight karte ho") || (event.body.toLowerCase() == "fyter ho") || (event.body.toLowerCase() == "juthe") || (event.body.toLowerCase() == "fyt ho gyi he") || (event.body.toLowerCase() == "fight me aja")) {
      return api.sendMessage("jab dekho tab fyt fyt ga*d me ghus jayegi fyt agar saurabh ji ko bata diya mene ye sab", threadID);
    };
@@ -247,11 +244,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Jai Shree Ram ❤️", threadID);
    };
 
-
  if ((event.body.toLowerCase() == "Jai Shree Krishna") || (event.body.toLowerCase() == "Radhe Radhe") || (event.body.toLowerCase() == "jai shree krishna") || (event.body.toLowerCase() == "radhe radhe") || (event.body.toLowerCase() == "radhe radhe ❤️")) {
      return api.sendMessage("Jai Shree Krishna 🤗❤️", threadID);
    };
-
 
   if ((event.body.toLowerCase() == "😒") || (event.body.toLowerCase() == "🙄")) {
      return api.sendMessage("️️𝐓𝐢𝐫𝐜𝐡𝐢 𝐧𝐚𝐳𝐚𝐫𝐢𝐲𝐚 𝐦𝐨𝐫𝐢 𝐡𝐚𝐚𝐲𝐞 𝐡𝐚𝐚𝐲𝐞 𝐡𝐚𝐚𝐲𝐞 🙈", threadID);
