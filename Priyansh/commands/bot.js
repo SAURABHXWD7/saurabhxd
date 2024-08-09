@@ -58,9 +58,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
    if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "saurabh thakur") || (event.body.toLowerCase() == "nobita") || (event.body.toLowerCase() == "Nobita")) {
      return api.sendMessage( "Busy HoNge Work Me Wo Main t0o Hun Naw bolo kya hua 😘",threadID);
-
-       
-   };
+  };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
      return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𒄬•-※ 𝐍𝐨𝐛𝐢𝐭𝐚※ 𝐌𝐰𝐚𝐥𝐥𓆪 ᭄🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/Nobitaxwd42👋For Any Kind Of Help Contact On Instagram  Username 👉 @mr.saurabh__thakur", threadID);
@@ -118,7 +116,6 @@ if ((event.body.toLowerCase() == "tmkc") || (event.body.toLowerCase() == "Tmkc")
      return api.sendMessage("️Kya huva, Sad kyu ho, Mujhe batao Na Jawn", threadID);
    };
 
-
    if ((event.body.toLowerCase() == "hm") || (event.body.toLowerCase() == "hmm")) {
      return api.sendMessage("️Hmm Hmm Na Karke Sidha Sidha bolo. Hey Marry Me🙈", threadID);
    };
@@ -162,7 +159,6 @@ if ((event.body.toLowerCase() == "tmkc") || (event.body.toLowerCase() == "Tmkc")
   if ((event.body.toLowerCase() == "bhag") || (event.body.toLowerCase() == "bhago") || (event.body.toLowerCase() == "randi ka bacha bhag") || (event.body.toLowerCase() == "bhg") || (event.body.toLowerCase() == "lode bhag")) {
      return api.sendMessage("bhaga bhaga ke choduga yad rakhna 😾", threadID);
    };
-
 
   if ((event.body.toLowerCase() == "baby") || (event.body.toLowerCase() == "babu") || (event.body.toLowerCase() == "Teri gf ka boxda bot") || (event.body.toLowerCase() == "teri ma ka boxda") || (event.body.toLowerCase() == "Mine randi")) {
      return api.sendMessage("Bete yha se marna chalu karunga aur india border tak gand me chappal marte le jaunga samjha😹", threadID);
