@@ -60,22 +60,6 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Abe Bsdk Fb ki top class randi he wo chutiye Tujhe Samjh na aata 😾", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Sexy") || (event.body.toLowerCase() == "mwall") || (event.body.toLowerCase() == "mall") || (event.body.toLowerCase() == "Hot") || (event.body.toLowerCase() == "hot")) {
-     return api.sendMessage("Tum Mujhe Bigad Rahe Ho Meri Jawn Vese Mwall Mast Haii 😊❤️👍", threadID);
-   };
-
-  if ((event.body.toLowerCase() == "Bot band karo") || (event.body.toLowerCase() == "bot band kar") || (event.body.toLowerCase() == "bot hatao") || (event.body.toLowerCase() == "hatao ise") || (event.body.toLowerCase() == "hata yar ise")) {
-     return api.sendMessage("Kyu Teri Gand Me Kya khujli Ho rahi he  😾", threadID);
-   };
-
-  if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") || (event.body.toLowerCase() == "oy") || (event.body.toLowerCase() == "Abe") || (event.body.toLowerCase() == "Oyy")) {
-     return api.sendMessage("Ese Mat Bulaya karo meri jawn mujhe sharm aati he 🙈❤️", threadID);
-   };
-
-  if ((event.body.toLowerCase() == "kalap") || (event.body.toLowerCase() == "klp gyi") || (event.body.toLowerCase() == "klp lode) || (event.body.toLowerCase() == "klp") || (event.body.toLowerCase() == "chal kalap")) {
-     return api.sendMessage("Tu ese hi kalap kalap ke marega dekh liyo bsdk 😾", threadID);
-   };
-
    if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "saurabh thakur") || (event.body.toLowerCase() == "nobita") || (event.body.toLowerCase() == "Nobita")) {
      return api.sendMessage( "Busy HoNge Work Me Wo Main t0o Hun Naw bolo kya hua 😘",threadID);
   };
