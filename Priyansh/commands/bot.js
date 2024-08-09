@@ -63,7 +63,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐒𝐚𝐮𝐫𝐚𝐛𝐡🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/Nobitaxwd42👋For Any Kind Of Help Contact On Instagram  Username 👉 @mr.saurabh__thakur", threadID);
+     return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𒄬•-※ 𝐍𝐨𝐛𝐢𝐭𝐚※ 𝐌𝐰𝐚𝐥𝐥𓆪 ᭄🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/Nobitaxwd42👋For Any Kind Of Help Contact On Instagram  Username 👉 @mr.saurabh__thakur", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
@@ -180,7 +180,7 @@ if ((event.body.toLowerCase() == "fight karte ho") || (event.body.toLowerCase() 
      return api.sendMessage("jab dekho tab fyt fyt ga*d me ghus jayegi fyt agar saurabh ji ko bata diya mene ye sab", threadID);
    };
 
-if ((event.body.toLowerCase() == "Saurabh") || (event.body.toLowerCase() == "Sun Saurabh") || (event.body.toLowerCase() == "Saurabh") || (event.body.toLowerCase() == "Saurabh bhai") || (event.body.toLowerCase() == "Saurabh yar")) {
+if ((event.body.toLowerCase() == "saurabh sir") || (event.body.toLowerCase() == "saurabh bhai") || (event.body.toLowerCase() == "saurabh sun") || (event.body.toLowerCase() == "saurabh kha ho") || (event.body.toLowerCase() == "nobita sun")) {
      return api.sendMessage("Boss Ko Kyu bula rahe ho mujhe batao main hun na 🙂", threadID);
    };
 
