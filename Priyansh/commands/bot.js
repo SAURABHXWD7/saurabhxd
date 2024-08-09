@@ -82,6 +82,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
    };
 
+if ((event.body.toLowerCase() == "aalu") || (event.body.toLowerCase() == "Aniya") || (event.body.toLowerCase() == "aalu beta") || (event.body.toLowerCase() == "alu") || (event.body.toLowerCase() == "Aalu")) {
+     return api.sendMessage("Aalu aalu mat kar bsdk •-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ Se kahkar Teri watt lagva dunga 🥺❤️", threadID);
+   };
+
+
    if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
      return api.sendMessage("Tu H Btc. Bhos DK", threadID);
    };
