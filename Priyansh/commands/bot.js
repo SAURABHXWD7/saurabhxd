@@ -238,6 +238,51 @@ if ((event.body.toLowerCase() == "love you baby") || (event.body.toLowerCase() =
      return api.sendMessage("Saurabh thakur laye mujhe Rahu ya jau yha se😾", threadID);
    };
 
+if ((event.body.toLowerCase() == "pagal") || (event.body.toLowerCase() == "pagal bot") || (event.body.toLowerCase() == "paglu") || (event.body.toLowerCase() == "pgl") || (event.body.toLowerCase() == "hehe")) {
+     return api.sendMessage("pagal hoge tum me to masoom bacha hun saurabh ka 🥺❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "@† 𒄬•-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ ༑͡༑輪†⃝⃞⸙『٭𝐱͜͡⃝ᴆ』浴 㬲 𓆤❲𝐍𝐢𝐢𝐛𝐢𝐘𝐨 ༄•𝐊𝐚 𓆩𝐂𝐫'𝐮𝐬𝐇𓆪 𝐇𝐞𝐫𝐞⸙㬲 𓆤̿❹❸ :* ;) :) ︎ :) ;*") || (event.body.toLowerCase() == "@† 𒄬•-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ ༑͡༑輪†⃝⃞⸙『٭𝐱͜͡⃝ᴆ』浴 㬲 𓆤❲𝐍𝐢𝐢𝐛𝐢𝐘𝐨 ༄•𝐊𝐚 𓆩𝐂𝐫'𝐮𝐬𝐇𓆪 𝐇𝐞𝐫𝐞⸙㬲 𓆤̿❹❸ :* ;) :) ︎ :) ;* sun") || (event.body.toLowerCase() == "saurabh bro") || (event.body.toLowerCase() == "@† 𒄬•-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ ༑͡༑輪†⃝⃞⸙『٭𝐱͜͡⃝ᴆ』浴 㬲 𓆤❲𝐍𝐢𝐢𝐛𝐢𝐘𝐨 ༄•𝐊𝐚 𓆩𝐂𝐫'𝐮𝐬𝐇𓆪 𝐇𝐞𝐫𝐞⸙㬲 𓆤̿❹❸ :* ;) :) ︎ :) ;* 😾") || (event.body.toLowerCase() == "saurabh yar")) {
+     return api.sendMessage("Boss Ko Kyu bula rahe ho mujhe batao main hun na 🙂", threadID);
+   };
+
+if ((event.body.toLowerCase() == "jhatu") || (event.body.toLowerCase() == "jhat") || (event.body.toLowerCase() == "bsdk") || (event.body.toLowerCase() == "gand de") || (event.body.toLowerCase() == "dk boss")) {
+     return api.sendMessage("tere ko 50 group me add karke hanger marunga", threadID);
+   };
+
+if ((event.body.toLowerCase() == "randi") || (event.body.toLowerCase() == "rand") || (event.body.toLowerCase() == "randi ka bacha") || (event.body.toLowerCase() == "fucker boy here") || (event.body.toLowerCase() == "lode")) {
+     return api.sendMessage("bsdk bot se bachchodi karega teri gand me garam sariya dal dunga 😾", threadID);
+   };
+
+
+if ((event.body.toLowerCase() == "suar") || (event.body.toLowerCase() == "sale") || (event.body.toLowerCase() == "sale bot") || (event.body.toLowerCase() == "sale sahab") || (event.body.toLowerCase() == "mere bete")) {
+     return api.sendMessage("Bete yha se marna chalu karunga aur usa border tak gand me chappal marte le jaunga samjha😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "sun") || (event.body.toLowerCase() == "bache") || (event.body.toLowerCase() == "bachu") || (event.body.toLowerCase() == "buchu") || (event.body.toLowerCase() == "baxha")) {
+     return api.sendMessage("Ye Tumahara Bacha Kese Hua 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "chiin tapak dum dum") || (event.body.toLowerCase() == "dhum") || (event.body.toLowerCase() == "chin chapak") || (event.body.toLowerCase() == "dum dum") || (event.body.toLowerCase() == "chaina")) {
+     return api.sendMessage("Ham Sabka Maksad Ek hi he Chin Chapak Dum Dum 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "new hu") || (event.body.toLowerCase() == "new member") || (event.body.toLowerCase() == "naya hun") || (event.body.toLowerCase() == "aaj hi aaya") || (event.body.toLowerCase() == "new here")) {
+     return api.sendMessage("New Bacho ko chocklate free lekin chuma dena hoga 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "ok") || (event.body.toLowerCase() == "Okk") || (event.body.toLowerCase() == "okk") || (event.body.toLowerCase() == "okh") || (event.body.toLowerCase() == "oky")) {
+     return api.sendMessage("Hn okk kar kar ke pura angrez ban ja bsdk 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "kamina 😹") || (event.body.toLowerCase() == "Oyy kamine") || (event.body.toLowerCase() == "oy kamine") || (event.body.toLowerCase() == "kamina") || (event.body.toLowerCase() == "kamine")) {
+     return api.sendMessage("Kamina To mujhe banane vala he mr saurabh thakur me to bas bacha hun unka 😹", threadID);
+   };
+
+if ((event.body.toLowerCase() == "jaan") || (event.body.toLowerCase() == "janu") || (event.body.toLowerCase() == "meri jaan") || (event.body.toLowerCase() == "jan") || (event.body.toLowerCase() == "janu 😘")) {
+     return api.sendMessage("Aapki janu ko mr saurabh se bacha ke rakhna kahi le na jaye 😹", threadID);
+   };
+
    if ((event.body.toLowerCase() == "bot go to sleep") || (event.body.toLowerCase() == "bot goes to sleep")) {
      return api.sendMessage("I'm a bot, you're the one who should go to sleep <3", threadID);
    };
