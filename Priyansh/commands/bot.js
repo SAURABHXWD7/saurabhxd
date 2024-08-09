@@ -220,4 +220,15 @@ if ((event.body.toLowerCase() == "Ib") || (event.body.toLowerCase() == "inbox") 
      return api.sendMessage("Inbox me le jakar kya karega bsdk yhi bat kar na  😹", threadID);
    };
 
-if ((event.body.toLowerCase() == "request uth
+mess = "{name}"
+  
+  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
+    var msg = {
+      body: `${name}, ${rand}`
+    }
+    return api.sendMessage(msg, threadID, messageID);
+  };
+
+}
+
+module.exports.run = function({ api, event, client, __GLOBAL }) { }
