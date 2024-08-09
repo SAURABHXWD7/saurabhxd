@@ -88,6 +88,26 @@ if ((event.body.toLowerCase() == "tmkc") || (event.body.toLowerCase() == "Tmkc")
      return api.sendMessage("Sun 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ Se kahkar Teri watt lagva dunga 🥺❤️", threadID);
    };
 
+if ((event.body.toLowerCase() == "bacha") || (event.body.toLowerCase() == "ammu jawn") || (event.body.toLowerCase() == "Bebfa") || (event.body.toLowerCase() == "bebfa") || (event.body.toLowerCase() == "love you bot")) {
+     return api.sendMessage("jaan love you bhut sara🥺❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "Nahi") || (event.body.toLowerCase() == "nahi") || (event.body.toLowerCase() == "na") || (event.body.toLowerCase() == "no") || (event.body.toLowerCase() == "No")) {
+     return api.sendMessage("No No Mat Karo Jawn Me Aapko Aadhi Rat Me Bad Se Utha Le jaunga🥺❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "ok") || (event.body.toLowerCase() == "oky") || (event.body.toLowerCase() == "okh") || (event.body.toLowerCase() == "Okk") || (event.body.toLowerCase() == "okkk")) {
+     return api.sendMessage("Okk Okk Karke Pura Angrez Banja Bsdk 😾", threadID);
+   };
+
+if ((event.body.toLowerCase() == "Aww") || (event.body.toLowerCase() == "awww") || (event.body.toLowerCase() == "Wow") || (event.body.toLowerCase() == "wow") || (event.body.toLowerCase() == "aww")) {
+     return api.sendMessage("Aww Aww Mat Kar Kiss Kar lunga baby 🙈❤️", threadID);
+   };
+
+if ((event.body.toLowerCase() == "Tharki") || (event.body.toLowerCase() == "tharki") || (event.body.toLowerCase() == "tharak pan") || (event.body.toLowerCase() == "sala tharki") || (event.body.toLowerCase() == "Sala tharki")) {
+     return api.sendMessage("Tu Tharki Tera Bap Tharki 😾", threadID);
+   };
+
    if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
      return api.sendMessage("Tu H Btc. Bhos DK", threadID);
    };
@@ -97,7 +117,7 @@ if ((event.body.toLowerCase() == "tmkc") || (event.body.toLowerCase() == "Tmkc")
    };
 
    if ((event.body.toLowerCase() == "gand") || (event.body.toLowerCase() == "gandu") || (event.body.toLowerCase() == "lund") || (event.body.toLowerCase() == "land")) {
-     return api.sendMessage("Gand m jyada khujli h toh banana 🍌 under le le. :))))", threadID);
+     return api.sendMessage("Gand m jyada khujli h to Mera Lauda Le le under. :))))", threadID);
    };
 
    if ((event.body.toLowerCase() == "chumma de") || (event.body.toLowerCase() == "kiss me")) {
