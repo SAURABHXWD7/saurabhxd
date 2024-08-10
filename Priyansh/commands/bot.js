@@ -60,6 +60,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Abe Bsdk Fb ki top class randi he wo chutiye Tujhe Samjh na aata 😾", threadID);
    };
 
+if ((event.body.toLowerCase() == "Sexy") || (event.body.toLowerCase() == "mwall") || (event.body.toLowerCase() == "mall") || (event.body.toLowerCase() == "Hot") || (event.body.toLowerCase() == "hot")) {
+     return api.sendMessage("Tum Mujhe Bigad Rahe Ho Meri Jawn Vese Mwall Mast Haii 😊❤️👍", threadID);
+   };
+
    if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "saurabh thakur") || (event.body.toLowerCase() == "nobita") || (event.body.toLowerCase() == "Nobita")) {
      return api.sendMessage( "Busy HoNge Work Me Wo Main t0o Hun Naw bolo kya hua 😘",threadID);
   };
