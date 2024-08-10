@@ -160,8 +160,8 @@ if ((event.body.toLowerCase() == "Tharki") || (event.body.toLowerCase() == "thar
      return api.sendMessage("️Kya huva Bacha, Tabiyat kharab hai kya, Mujhe batao me abhi medicine 💊💉 le aata hu😇", threadID);
    };
 
-   if ((event.body.toLowerCase() == "name") || (event.body.toLowerCase() == "naam") || (event.body.toLowerCase() == "nam")) {
-     return api.sendMessage("️Name m kya rakkha h. tum kam pe dhyan do Na Jawn.", threadID);
+   if ((event.body.toLowerCase() == "aalu") || (event.body.toLowerCase() == "aniya") || (event.body.toLowerCase() == "Aalu")) {
+     return api.sendMessage("️Aalu aalu mat kar bsdk aalu se boldiya to teri gand mar legi apne nakli lode se 😾", threadID);
    };
 
    if ((event.body.toLowerCase() == "bot k bacche") || (event.body.toLowerCase() == "bot ke bacche")) {
