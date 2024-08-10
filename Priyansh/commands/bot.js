@@ -64,6 +64,10 @@ if ((event.body.toLowerCase() == "Sexy") || (event.body.toLowerCase() == "mwall"
      return api.sendMessage("Tum Mujhe Bigad Rahe Ho Meri Jawn Vese Mwall Mast Haii 😊❤️👍", threadID);
    };
 
+if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") || (event.body.toLowerCase() == "oy") || (event.body.toLowerCase() == "Abe") || (event.body.toLowerCase() == "Oyy")) {
+     return api.sendMessage("Ese Mat Bulaya karo meri jawn mujhe sharm aati he 🙈❤️", threadID);
+   };
+
    if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "saurabh thakur") || (event.body.toLowerCase() == "nobita") || (event.body.toLowerCase() == "Nobita")) {
      return api.sendMessage( "Busy HoNge Work Me Wo Main t0o Hun Naw bolo kya hua 😘",threadID);
   };
