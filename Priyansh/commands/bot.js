@@ -68,20 +68,20 @@ if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") |
      return api.sendMessage("Ese Mat Bulaya karo meri jawn mujhe sharm aati he 🙈❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "saurabh thakur") || (event.body.toLowerCase() == "nobita") || (event.body.toLowerCase() == "Nobita")) {
-     return api.sendMessage( "Busy HoNge Work Me Wo Main t0o Hun Naw bolo kya hua 😘",threadID);
+   if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "@「๛⃝₍𝐒͜͡𝐚𝐮𝐫͜͡𝐚𝐛𝐡₎̚ 」࿐『𝐱͜͡⃝ᴆ』浴'") || (event.body.toLowerCase() == "@† 𒄬•-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ ༑͡༑輪†⃝⃞⸙『٭𝐱͜͡⃝ᴆ』浴 㬲 𓆤❲𝐍𝐢𝐢𝐛𝐢𝐘𝐨 ༄•𝐊𝐚 𓆩𝐂𝐫'𝐮𝐬𝐇𓆪 𝐇𝐞𝐫𝐞⸙㬲 𓆤̿❹❸ :* ;) :) ︎ :) ;*") || (event.body.toLowerCase() == "† 𒄬•-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ ༑͡༑輪†⃝⃞⸙『٭𝐱͜͡⃝ᴆ』浴 㬲 𓆤❲𝐍𝐢𝐢𝐛𝐢𝐘𝐨 ༄•𝐊𝐚 𓆩𝐂𝐫'𝐮𝐬𝐇𓆪 𝐇𝐞𝐫𝐞⸙㬲 𓆤̿❹❸ :* ;) :) ︎ :) ;*")) {
+     return api.sendMessage( "Boss Ko Kyu Bula Rahe Ho Mujhe Batao Kya Hua ?",threadID);
   };
 
-   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
+   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Admin")) {
      return api.sendMessage("💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𒄬•-※ 𝐍𝐨𝐛𝐢𝐭𝐚※ 𝐌𝐰𝐚𝐥𝐥𓆪 ᭄🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/Nobitaxwd42👋For Any Kind Of Help Contact On Instagram  Username 👉 @mr.saurabh__thakur", threadID);
    };
 
-   if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
-     return api.sendMessage("Saurabh  ❤️ My Creator. He loves me & Edit Me Daily. Ye Bot Sirf Owner k Liye h. Mujhe Aap logo ko Hasane k liye banya gya h Toh Muh Ladkaye Mat Rakkha Karo. Har Waqt Haste Raho.", threadID);
+   if ((event.body.toLowerCase() == "Bsdk") || (event.body.toLowerCase() == "bsdk")) {
+     return api.sendMessage("Gali Dega Bsdk Utha Ke Nale Me Fek Dunga Samjha Na 😾", threadID);
    };
 
-  if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")) {
-     return api.sendMessage("He is  𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ . He Gives his name Saurabh everywhare", threadID);
+  if ((event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "Admin")) {
+     return api.sendMessage("My Owner Name 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ . He Gives his name Saurabh everywhare", threadID);
    };
 
      if ((event.body.toLowerCase() == "shadi karoge") || (event.body.toLowerCase() == "mujhse shadi karoge")) {
@@ -92,16 +92,16 @@ if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") |
      return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
    };
 
- if ((event.body.toLowerCase() == "aalu") || (event.body.toLowerCase() == "Aniya") || (event.body.toLowerCase() == "aalu beta") || (event.body.toLowerCase() == "alu") || (event.body.toLowerCase() == "Aalu")) {
-     return api.sendMessage("Aalu aalu mat kar bsdk •-※ 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ Se kahkar Teri watt lagva dunga 🥺❤️", threadID);
+ if ((event.body.toLowerCase() == "ha") || (event.body.toLowerCase() == "Ha") || (event.body.toLowerCase() == "hnn") || (event.body.toLowerCase() == "Hu") || (event.body.toLowerCase() == "hnji")) {
+     return api.sendMessage("Ese Hn Mat Bola Karo Mujhe Aapse pyar ho jayega bacha 🥺❤️", threadID);
    };
 
 if ((event.body.toLowerCase() == "tmkc") || (event.body.toLowerCase() == "Tmkc") || (event.body.toLowerCase() == "Teri ma ki chut") || (event.body.toLowerCase() == "Hatt") || (event.body.toLowerCase() == "bhkk")) {
-     return api.sendMessage("Sun 𓆩⃝𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐚͜͡𝐰𝐋𓆪 ᭄ Se kahkar Teri watt lagva dunga 🥺❤️", threadID);
+     return api.sendMessage("Bacha Samjh Raha He kya abhi apne malik Saurabh Se Kahkar tera Sara bhut utarva dunga", threadID);
    };
 
-if ((event.body.toLowerCase() == "bacha") || (event.body.toLowerCase() == "ammu jawn") || (event.body.toLowerCase() == "Bebfa") || (event.body.toLowerCase() == "bebfa") || (event.body.toLowerCase() == "love you bot")) {
-     return api.sendMessage("jaan love you bhut sara🥺❤️", threadID);
+if ((event.body.toLowerCase() == "kab") || (event.body.toLowerCase() == "kha") || (event.body.toLowerCase() == "kese") || (event.body.toLowerCase() == "kya") || (event.body.toLowerCase() == "kyu")) {
+     return api.sendMessage("Ye Sab Mat kha karo Na Jawn Aao pyar kare🙈❤️", threadID);
    };
 
 if ((event.body.toLowerCase() == "Nahi") || (event.body.toLowerCase() == "nahi") || (event.body.toLowerCase() == "na") || (event.body.toLowerCase() == "no") || (event.body.toLowerCase() == "No")) {
@@ -149,7 +149,7 @@ if ((event.body.toLowerCase() == "Tharki") || (event.body.toLowerCase() == "thar
    };
 
    if ((event.body.toLowerCase() == "hm") || (event.body.toLowerCase() == "hmm")) {
-     return api.sendMessage("️Hmm Hmm Na Karke Sidha Sidha bolo. Hey Marry Me🙈", threadID);
+     return api.sendMessage("️Hmm Hmm Na Karke Sidha Sidha bola karo shadi karlo mujhse 🙈", threadID);
    };
 
    if ((event.body.toLowerCase() == "😢") || (event.body.toLowerCase() == "😭") || (event.body.toLowerCase() == "🥺") || (event.body.toLowerCase() == "🥹")) {
@@ -184,8 +184,8 @@ if ((event.body.toLowerCase() == "Tharki") || (event.body.toLowerCase() == "thar
      return api.sendMessage("️Man Toh Accha H Nhi. Kam  Se Kam Shakal Toh Accha Karlo Meri Jaan", threadID);
    };
 
-  if ((event.body.toLowerCase() == "bot jhatu") || (event.body.toLowerCase() == "bot bsdk") || (event.body.toLowerCase() == "fuck me") || (event.body.toLowerCase() == "gand de do koii") || (event.body.toLowerCase() == "lagend log")) {
-     return api.sendMessage("Bot Se panga not changa tmkc 100 bar dost 😞👍", threadID);
+  if ((event.body.toLowerCase() == "inbox") || (event.body.toLowerCase() == "ib") || (event.body.toLowerCase() == "ib chal") || (event.body.toLowerCase() == "ib me") || (event.body.toLowerCase() == "lagend log")) {
+     return api.sendMessage("Meri Jawn Ko ib me kyu le ja raha bsdk 😞👍", threadID);
    };
 
   if ((event.body.toLowerCase() == "bhag") || (event.body.toLowerCase() == "bhago") || (event.body.toLowerCase() == "randi ka bacha bhag") || (event.body.toLowerCase() == "bhg") || (event.body.toLowerCase() == "lode bhag")) {
