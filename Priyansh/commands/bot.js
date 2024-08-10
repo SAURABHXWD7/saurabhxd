@@ -68,6 +68,10 @@ if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") |
      return api.sendMessage("Ese Mat Bulaya karo meri jawn mujhe sharm aati he 🙈❤️", threadID);
    };
 
+if ((event.body.toLowerCase() == "kalap") || (event.body.toLowerCase() == "klp gyi") || (event.body.toLowerCase() == "klp lode) || (event.body.toLowerCase() == "klp") || (event.body.toLowerCase() == "chal kalap")) {
+     return api.sendMessage("Tu ese hi kalap kalap ke marega dekh liyo bsdk 😾", threadID);
+   };
+
    if ((event.body.toLowerCase() == "saurabh") || (event.body.toLowerCase() == "saurabh thakur") || (event.body.toLowerCase() == "nobita") || (event.body.toLowerCase() == "Nobita")) {
      return api.sendMessage( "Busy HoNge Work Me Wo Main t0o Hun Naw bolo kya hua 😘",threadID);
   };
