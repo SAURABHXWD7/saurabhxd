@@ -12,12 +12,12 @@ module.exports.config = {
 module.exports.handleEvent = async ({ event, api, Users }) => {
   let KEY = [ 
     "hello",
-    "hi",
-    "hai",
-    "chào",
+    "Hii",
+    "hii",
+    "Hi",
     "chao",
     "hí",
-    "híí",
+    "Hlw",
     "hì",
     "hìì",
     "lô",
