@@ -4,7 +4,7 @@ module.exports.config = {
   name: "hot",
   version: "1.0.",
   hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",//dont change credit😠
+  credits: "𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫",//dont change credit😠
   description: "rendom  hot video",
   commandCategory: "sexy video",
   usages: "[sexy]",
