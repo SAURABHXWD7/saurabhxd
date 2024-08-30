@@ -3,7 +3,7 @@ module.exports.config = {
   name: "hot2",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "AYAN CHOWDHURY",
+  credits: "𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫",
   description: "HOT VEDIO",
   commandCategory: "Random",
   usages: "hot2",
