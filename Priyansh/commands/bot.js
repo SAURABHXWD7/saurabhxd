@@ -142,7 +142,7 @@ if ((event.body.toLowerCase() == "Tharki") || (event.body.toLowerCase() == "thar
      return api.sendMessage("️Kya huva Bacha, Tabiyat kharab hai kya, Mujhe batao me abhi medicine 💊💉 le aata hu😇", threadID);
    };
 
-   if ((event.body.toLowerCase() == "nitya") || (event.body.toLowerCase() == "Nitya") || (event.body.toLowerCase() == "@Əx'o Oo")) {
+   if ((event.body.toLowerCase() == "nitya") || (event.body.toLowerCase() == "Nitya") || (event.body.toLowerCase() == "Əx'o Oo")) {
      return api.sendMessage("️Nitya nitya mat kar bsdk nitya se boldiya to tujhe nale me dubo dubo ke mar degi 😾", threadID);
    };
 
