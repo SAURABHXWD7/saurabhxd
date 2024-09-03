@@ -20,28 +20,26 @@ module.exports = {
   },
 
   run: async function ({ api, event, args }) {
-     let songName, type;
+    let songName, type;
 
-     if (
+    if (
       args.length > 1 &&
       (args[args.length - 1] === "audio" || args[args.length - 1] === "video")
-     ) {
+    ) {
       type = args.pop();
       songName = args.join(" ");
-     } else {
+    } else {
       songName = args.join(" ");
-     type = "audio";
-     }
-
-    if (args.length === 0) {
-      return api.sendMessage(
-        "Please provide the name of the song to download.",
-        threadID,
-        messageID
-      );
+      type = "audio";
     }
 
-    const songName = args.join(" ");
+    if (!songName) {
+      return api.sendMessage(
+        "Please provide the name of the song to download.",
+        event.threadID,
+        event.messageID
+      );
+    }
 
     const apiUrl = `https://07e8363c-50e9-433d-a6b5-c9e18ca3e2df-00-3m6psysyh8j6u.sisko.replit.dev/yt?song=${encodeURIComponent(songName)}&type=${encodeURIComponent(type)}&apikey=priyansh-here`;
 
@@ -49,7 +47,7 @@ module.exports = {
       "✅ Processing your request. Please wait...",
       event.threadID,
       null,
-      event.messageID,
+      event.messageID
     );
 
     try {
@@ -58,7 +56,7 @@ module.exports = {
 
       if (!response.ok) {
         throw new Error(
-          `Failed to fetch song. Status code: ${response.status}`,
+          `Failed to fetch song. Status code: ${response.status}`
         );
       }
 
@@ -86,14 +84,14 @@ module.exports = {
           fs.unlinkSync(downloadPath);
           api.unsendMessage(processingMessage.messageID);
         },
-        event.messageID,
+        event.messageID
       );
     } catch (error) {
       console.error(`Failed to download and send song: ${error.message}`);
       api.sendMessage(
         `Failed to download song: ${error.message}`,
         event.threadID,
-        event.messageID,
+        event.messageID
       );
     }
   },
