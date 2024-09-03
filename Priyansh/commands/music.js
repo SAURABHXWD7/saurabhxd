@@ -52,12 +52,25 @@ module.exports = {
 
     try {
       api.setMessageReaction("⌛", event.messageID, () => {}, true);
-      const response = await fetch(apiUrl);
 
-      if (!response.ok) {
-        throw new Error(
-          `Failed to fetch song. Status code: ${response.status}`
-        );
+      // Implementing retry logic with exponential backoff
+      const maxRetries = 3;
+      let attempt = 0;
+      let response;
+
+      while (attempt < maxRetries) {
+        response = await fetch(apiUrl);
+
+        if (response.ok) break; // Exit loop if request is successful
+
+        attempt++;
+        if (attempt < maxRetries) {
+          await new Promise((resolve) => setTimeout(resolve, 1000 * Math.pow(2, attempt))); // Exponential backoff
+        }
+      }
+
+      if (!response || !response.ok) {
+        throw new Error(`Failed to fetch song. Status code: ${response ? response.status : 'No response'}`);
       }
 
       // Extract filename from the Content-Disposition header
@@ -89,7 +102,7 @@ module.exports = {
     } catch (error) {
       console.error(`Failed to download and send song: ${error.message}`);
       api.sendMessage(
-        `Failed to download song: ${error.message}`,
+        `Failed to download song: ${error.message}. The service may be temporarily unavailable. Please try again later.`,
         event.threadID,
         event.messageID
       );
