@@ -52,16 +52,16 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
 if ((event.body.toLowerCase() == "bekar he bot") || (event.body.toLowerCase() == "kisi kam ka nahi he ye bot")) {
-     return api.sendMessage("Tumse to acha hi hun samjh aaya ЁЯШ╣", threadID);
+     return api.sendMessage("Tumse to acha hi hun samjh aaya 😹", threadID);
    };
 
   if ((event.body.toLowerCase() == "khushi") || (event.body.toLowerCase() == "Khushi") || (event.body.toLowerCase() == "khushi rand") || (event.body.toLowerCase() == "bebfa") || (event.body.toLowerCase() == "Mine Randi")) {
-     return api.sendMessage("Abe Bsdk Fb ki top class randi he wo chutiye Tujhe Samjh na aata ЁЯШ╛", threadID);
+     return api.sendMessage("Abe Bsdk Fb ki top class randi he wo chutiye Tujhe Samjh na aata😹", threadID);
    };
 
 
 if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") || (event.body.toLowerCase() == "oy") || (event.body.toLowerCase() == "Abe") || (event.body.toLowerCase() == "Oyy")) {
-     return api.sendMessage("Ese Mat Bulaya karo meri jawn mujhe sharm aati he ЁЯЩИтЭдя╕П", threadID);
+     return api.sendMessage("Ese Mat Bulaya karo meri jawn mujhe sharm aati he 😏", threadID);
    };
 
    if ((event.body.toLowerCase() == "Bsdk") || (event.body.toLowerCase() == "bsdk")) {
@@ -69,31 +69,31 @@ if ((event.body.toLowerCase() == "abe") || (event.body.toLowerCase() == "oyy") |
    };
 
    if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "chup ho ja") || (event.body.toLowerCase() == "chup kar")) {
-     return api.sendMessage("Nhi rahunga. ЁЯШ╝ Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
+     return api.sendMessage("Nhi rahunga Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga 🫣", threadID);
    };
 
  if ((event.body.toLowerCase() == "ha") || (event.body.toLowerCase() == "Ha") || (event.body.toLowerCase() == "hnn") || (event.body.toLowerCase() == "Hu") || (event.body.toLowerCase() == "hnji")) {
-     return api.sendMessage("Ese Hn Mat Bola Karo Mujhe Aapse pyar ho jayega bacha ЁЯе║тЭдя╕П", threadID);
+     return api.sendMessage("Ese Hn Mat Bola Karo Mujhe Aapse pyar ho jayega bacha 🤭❤️", threadID);
    };
 
 if ((event.body.toLowerCase() == "kab") || (event.body.toLowerCase() == "kha") || (event.body.toLowerCase() == "kese") || (event.body.toLowerCase() == "kya") || (event.body.toLowerCase() == "kyu")) {
-     return api.sendMessage("Ye Sab Mat kha karo Na Jawn Aao pyar kareЁЯЩИтЭдя╕П", threadID);
+     return api.sendMessage("Ye Sab Mat kha karo Na Jawn Aao pyar karte he 🥺❤️", threadID);
    };
 
 if ((event.body.toLowerCase() == "Nahi") || (event.body.toLowerCase() == "nahi") || (event.body.toLowerCase() == "na") || (event.body.toLowerCase() == "no") || (event.body.toLowerCase() == "No")) {
-     return api.sendMessage("No No Mat Karo Jawn Me Aapko Aadhi Rat Me Bad Se Utha Le jaungaЁЯе║тЭдя╕П", threadID);
+     return api.sendMessage("No No Mat Karo Jawn Me Aapko Aadhi Rat Me Bad Se Utha Le jaunga🥺❤️", threadID);
    };
 
 if ((event.body.toLowerCase() == "ok") || (event.body.toLowerCase() == "oky") || (event.body.toLowerCase() == "okh") || (event.body.toLowerCase() == "Okk") || (event.body.toLowerCase() == "okkk")) {
-     return api.sendMessage("Okk Okk Karke Pura Angrez Banja Bsdk ЁЯШ╛", threadID);
+     return api.sendMessage("Okk Okk Karke Pura Angrez Banja Bsdk 😾", threadID);
    };
 
 if ((event.body.toLowerCase() == "Aww") || (event.body.toLowerCase() == "awww") || (event.body.toLowerCase() == "Wow") || (event.body.toLowerCase() == "wow") || (event.body.toLowerCase() == "aww")) {
-     return api.sendMessage("Aww Aww Mat Kar Kiss Kar lunga baby ЁЯЩИтЭдя╕П", threadID);
+     return api.sendMessage("Aww Aww Mat Kar Kiss Kar lunga baby 🥹❤️", threadID);
    };
 
 if ((event.body.toLowerCase() == "Tharki") || (event.body.toLowerCase() == "tharki") || (event.body.toLowerCase() == "tharak pan") || (event.body.toLowerCase() == "sala tharki") || (event.body.toLowerCase() == "Sala tharki")) {
-     return api.sendMessage("Tu Tharki Tera Bap Tharki ЁЯШ╛", threadID);
+     return api.sendMessage("Tu Tharki Tera Bap Tharki😾❤️", threadID);
    };
 
    if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
