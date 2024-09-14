@@ -218,11 +218,19 @@ if ((event.body.toLowerCase() == "Ib") || (event.body.toLowerCase() == "inbox") 
      return api.sendMessage("Inbox me le jakar kya karega bsdk yhi bat kar na  😹", threadID);
    };
 
-mess = "{name}"
-  
-  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
+   mess = "{name}"
+
+  if (event.body.includes("Bot") == 1 ||
+   (event.body.includes("Nobita") == 1 ||
+   (event.body.includes("NOBI") == 1 ||
+   (event.body.includes("SAURABH") == 1 ||
+   (event.body.includes("BOT") == 1 ||
+   (event.body.includes("tklu") == 1 ||
+   (event.body.includes("Tklu") == 1 ||
+   (event.body.includes("Oye") == 1 ||
+   (event.body.includes("oye") == 1 ))))))))) {
     var msg = {
-      body: `${name}, ${rand}`
+      body: `${rand}`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
