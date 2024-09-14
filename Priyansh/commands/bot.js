@@ -46,8 +46,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Ꮆɵɵɗ Ɱ❍ɽƞɪɪƞɠ Ɛⱱɛɽɣ❍ƞɛ🌅, Ƭɽɣ ꌗɵɱɛ Cɵffɛɛ ❍ɽ Ƭɛɑ Ƭ❍ Ꮗɑҡɛ Uƥ☕✨💫", threadID);
    };
 
-   if ((event.body.toLowerCase() == "anyone") || (event.body.toLowerCase() == "Koi Hai")) {
-     return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
+   if ((event.body.toLowerCase() == "bekar he bot") || (event.body.toLowerCase() == "kisi kam ka nahi he ye bot")) {
+     return api.sendMessage("Tumse to acha hi hun samjh aaya 😹", threadID);
    };
 
   if ((event.body.toLowerCase() == "khushi") || (event.body.toLowerCase() == "Khushi") || (event.body.toLowerCase() == "khushi rand") || (event.body.toLowerCase() == "bebfa") || (event.body.toLowerCase() == "Mine Randi")) {
