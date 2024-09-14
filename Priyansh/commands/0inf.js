@@ -30,9 +30,9 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ † 𒄬•-※ 𝐍𝐨𝐛𝐢𝐭𝐚※ .𝐌𝐰𝐚𝐥𓆪 ᭄💔🥀
+🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫 💔🥀
 
-🙈bot andmin owner facebook id link🙈➪ www.facebook.com/Nobitaxwd42 💞🕊️
+🙈bot andmin owner facebook id link🙈➪ www.facebook.com/profile.php?id=100007994598695 💞🕊️
 
 👋For Any Kind Of Help Contact On Instagram  Username 👉 @mr.saurabh__thakur😇
 
