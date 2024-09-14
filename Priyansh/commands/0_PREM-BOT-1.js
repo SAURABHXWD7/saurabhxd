@@ -36,7 +36,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
-     return api.sendMessage("मेरी जान पहले [#] 👈 लगाओ फिर लिखो सिम 🙂🤟", threadID);
+     return api.sendMessage("मेरी जान पहले [/] 👈 लगाओ फिर लिखो सिम 🙂🤟", threadID);
    };
   
    if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
@@ -60,11 +60,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "kiska bot hai")) {
-     return api.sendMessage("मेरा बॉस प्रेम बाबू है और मै उसका टकलू बाबू हूं 😒👈\n✧═════════•❁❀❁•═════════✧\nअगर आपको मेरे बॉस प्रेम बाबू से बात करनी है तो इस लिंक पे क्लीक कर के मेरे बॉस को फ्रेंड रिक्वेस्ट भेज दो जल्दी 😊✌️\n✧═════════•❁❀❁•═════════✧\nhttps://www.facebook.com/prembabu001?mibextid=ZbWKwL\n✧═════════•❁❀❁•═════════✧", threadID);
+     return api.sendMessage("मेरा बॉस सौरभ बाबू है और मै उसका टकलू बाबू हूं 😒👈\n✧═════════•❁❀❁•═════════✧\nअगर आपको मेरे बॉस सौरभ बाबू से बात करनी है तो इस लिंक पे क्लीक कर के मेरे बॉस को फ्रेंड रिक्वेस्ट भेज दो जल्दी 😊✌️\n✧═════════•❁❀❁•═════════✧\nhttps://www.facebook.com/profile.php?id=100007994598695n✧═════════•❁❀❁•═════════✧", threadID);
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon hai")) {
-     return api.sendMessage("मेरा बॉस प्रेम बाबू है। 🙂✌️", threadID);
+     return api.sendMessage("मेरा सौरभ बाबू है। 🙂✌️", threadID);
    };
 
    if ((event.body.toLowerCase() == "🙈") || (event.body.toLowerCase() == "🙈🙈")) {
@@ -182,11 +182,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    (event.body.includes("bot") == 1 ||
    (event.body.includes("Taklu") == 1 ||
    (event.body.includes("taklu") == 1 ||
-   (event.body.includes("टकलू") == 1 ||
+   (event.body.includes("Saurabh") == 1 ||
    (event.body.includes("tklu") == 1 ||
    (event.body.includes("Tklu") == 1 ||
-   (event.body.includes("Oye") == 1 ||
-   (event.body.includes("oye") == 1 ))))))))) {
+   (event.body.includes("Nobita") == 1 ||
+   (event.body.includes("Nobi") == 1 ))))))))) {
     var msg = {
       body: `${rand}`
     }
