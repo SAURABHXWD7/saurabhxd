@@ -24,14 +24,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "") || (event.body.toLowerCase() == "") || (event.body.toLowerCase() == "") || (event.body.toLowerCase() == "")) {
-     return api.sendMessage("आर ये सब मत भेजा करो मेरा सर दर्द होता है। 🤕👈", threadID);
+     return api.sendMessage(यार ये सब मत भेजा करो मेरा सर दर्द होता है। 🤕👈", threadID);
    };
   ////////////////@prem-babu3608/////////////////
    mess = "{name}"
   
-  if (event.body.includes("Prem") == 1 || (event.body.includes("Takla") == 1)) {
+  if (event.body.includes("nobi") == 1 || (event.body.includes("Nobita") == 1)) {
     var msg = {
-      body: `🐥 ${name} 🐥\n\n 👉${rand} \n\n   ❁ ══════ ❃ प्रेम बाबू ❃ ══════ ❁`
+      body: `🐥 ${name} 🐥\n\n 👉${rand} \n\n   ❁ ══════ ❃ नोबिता बाबू ❃ ══════ ❁`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
