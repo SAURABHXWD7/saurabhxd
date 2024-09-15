@@ -4,7 +4,7 @@
 	hasPermssion: 0,
 	credits: "𝐒𝐚𝐮𝐫𝐚𝐛𝐡 𝐓𝐡𝐚𝐤𝐮𝐫",
 	description: "Beginner's Guide",
-	commandCategory: "system",
+	commandCategory: "Admin",
 	usages: "[Tên module]",
 	cooldowns: 1,
 	envConfig: {
